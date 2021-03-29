@@ -20,13 +20,12 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
-
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(D:/KHAFIDZ/20202021/DIGITALENT%202021/kelompokb26new/images/banner1.png);
   background-size: cover;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .top-wrapper h1 {
@@ -42,7 +41,7 @@ a {
 }
 
 .btn-wrapper {
-  text-align: center;
+  text-align: left;
   margin: 20px 0;
 }
 
@@ -50,16 +49,13 @@ a {
   margin: 10px 0;
 }
 
-.signup {
-  background-color: #239b76;
-}
 
-.facebook {
+.daftar {
   background-color: #3b5998;
   margin-right: 10px;
 }
 
-.twitter {
+.materi {
   background-color: #55acee;
 }
 
@@ -83,7 +79,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(254, 129, 9, 0.9);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -135,7 +131,7 @@ header {
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #5f5d60;
+  color: #FFFFF0;
 }
 
 .heading h2 {
@@ -145,8 +141,10 @@ header {
 .lesson {
   float: left;
   width: 25%;
+    
 }
-
+  
+	
 .lesson-icon {
   position: relative;
 }
@@ -154,7 +152,7 @@ header {
 .lesson-icon p {
   position: absolute;
   top: 44%;
-  width: 100%;
+  width: 50%;
   color: white;
 }
 
@@ -174,13 +172,14 @@ header {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+  background: linear-gradient(#FF4500, #FFA500); 
 }
 
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: #3b5998;
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+  
 }
 
 .message:active {
@@ -188,6 +187,7 @@ header {
   top: 7px;
   box-shadow: none;
 }
+
 
 footer img {
   width: 125px;
